@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">mao-dialectics usage example</title>
+  <desc id="desc">A white-background horizontal demonstration of a real dialectical analysis output.</desc>
+  <defs>
+    <filter id="cardShadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1f2933" flood-opacity="0.13"/>
+    </filter>
+    <linearGradient id="redHeader" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a51b1b"/>
+      <stop offset="1" stop-color="#5c0a0a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="760" fill="#ffffff"/>
+  <rect x="42" y="42" width="1316" height="676" rx="26" fill="#ffffff" stroke="#eadfce" stroke-width="2" filter="url(#cardShadow)"/>
+  <rect x="42" y="42" width="1316" height="86" rx="26" fill="url(#redHeader)"/>
+  <path d="M42 100H1358V128H42z" fill="url(#redHeader)"/>
+
+  <text x="82" y="96" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#fff7df">
+    使用效果演示：从一句问题到结构化辩证分析
+  </text>
+  <text x="1280" y="96" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f6d98f" text-anchor="end" letter-spacing="3">
+    MAO-DIALECTICS
+  </text>
+
+  <g transform="translate(82 168)">
+    <text x="0" y="0" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#8a1b16" letter-spacing="2">
+      USER PROMPT
+    </text>
+    <rect x="0" y="22" width="382" height="246" rx="16" fill="#faf7f1" stroke="#eadfce"/>
+    <text x="28" y="70" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="800" fill="#241512">
+      帮我从辩证法角度
+    </text>
+    <text x="28" y="111" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="800" fill="#241512">
+      看一下这个产品方向：
+    </text>
+    <text x="28" y="163" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#4a2c24">
+      “AI Agent 长期记忆系统
+    </text>
+    <text x="28" y="199" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#4a2c24">
+      应该先做成自动总结，
+    </text>
+    <text x="28" y="235" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#4a2c24">
+      还是先做成可编辑知识库？”
+    </text>
+  </g>
+
+  <g transform="translate(520 168)">
+    <text x="0" y="0" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#8a1b16" letter-spacing="2">
+      AGENT OUTPUT
+    </text>
+
+    <g transform="translate(0 22)">
+      <rect width="372" height="168" rx="16" fill="#ffffff" stroke="#eadfce"/>
+      <rect x="0" y="0" width="9" height="168" rx="4" fill="#8a1b16"/>
+      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">1. 现象定位</text>
+      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">表面上是在选功能优先级，</text>
+      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">本质上是在处理“可靠积累”</text>
+      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">和“用户掌控感”的关系。</text>
+    </g>
+
+    <g transform="translate(404 22)">
+      <rect width="372" height="168" rx="16" fill="#ffffff" stroke="#eadfce"/>
+      <rect x="0" y="0" width="9" height="168" rx="4" fill="#b88922"/>
+      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">2. 主要矛盾</text>
+      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">自动总结能降低使用门槛，</text>
+      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">但如果不可编辑，用户很难</text>
+      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">信任系统记住了什么。</text>
+    </g>
+
+    <g transform="translate(0 220)">
+      <rect width="372" height="168" rx="16" fill="#ffffff" stroke="#eadfce"/>
+      <rect x="0" y="0" width="9" height="168" rx="4" fill="#2f4f2f"/>
+      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">3. 条件判断</text>
+      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">早期阶段最缺的不是记得多，</text>
+      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">而是让用户看到、修正、确认</text>
+      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">记忆如何形成。</text>
+    </g>
+
+    <g transform="translate(404 220)">
+      <rect width="372" height="168" rx="16" fill="#fffaf0" stroke="#d9b761"/>
+      <rect x="0" y="0" width="9" height="168" rx="4" fill="#8a1b16"/>
+      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">4. 实践建议</text>
+      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">先做可编辑知识库作为底座，</text>
+      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">再叠加自动总结。判断标准：</text>
+      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#8a1b16">用户愿不愿意反复使用。</text>
+    </g>
+  </g>
+
+  <g transform="translate(82 592)">
+    <rect width="1236" height="74" rx="14" fill="#241512"/>
+    <text x="34" y="47" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#fff7df">
+      输出特征：
+    </text>
+    <text x="148" y="47" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#fff7df">
+      不急着给结论，先拆矛盾、看条件、定阶段，最后给可验证的行动建议。
+    </text>
+  </g>
+</svg>

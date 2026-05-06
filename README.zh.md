@@ -59,6 +59,14 @@
 | 项目计划 | 胸中有数、弹钢琴、集中优势兵力、组织起来 |
 | 复盘总结 | 回顾事实、分析原因、自我批评、提炼经验 |
 
+## 使用示例
+
+下面是一次真实使用时的输出形态：它不会急着给结论，而是先把现象、主要矛盾、条件判断和实践建议拆开。
+
+<p align="center">
+  <img src="assets/example-output.svg" width="920" alt="mao-dialectics 使用效果演示">
+</p>
+
 ## 安装
 
 ```bash
@@ -81,7 +89,8 @@ mao-dialectics/
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # 中文完整说明
 ├── assets/
-│   └── banner.svg                  # 项目横幅
+│   ├── banner.svg                  # 项目横幅
+│   └── example-output.svg          # 使用效果演示图
 └── references/
     ├── problem-routing.md          # 问题类型到方法路由
     ├── contradiction.md            # 矛盾论体系详解

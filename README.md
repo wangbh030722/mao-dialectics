@@ -38,19 +38,11 @@
 
 ## 使用示例
 
-```text
-用户：帮我从辩证法角度看一下这个产品方向。
+下面是一次真实使用时的输出形态：它不会急着给结论，而是先把现象、主要矛盾、条件判断和实践建议拆开。
 
-Agent 会先定位现象，再识别主要矛盾和次要矛盾，接着分析历史条件、
-现实约束与趋势变化，最后给出可验证的实践建议。
-```
-
-```text
-用户：我现在有三个方案，不知道该选哪个，帮我做战略规划。
-
-Agent 会先做形势分析和阶段判断，再比较每个方案的资源要求、风险、
-窗口期和后手，最后给出当前阶段的优先选择。
-```
+<p align="center">
+  <img src="assets/example-output.svg" width="920" alt="mao-dialectics 使用效果演示">
+</p>
 
 ## 安装
 
@@ -74,7 +66,8 @@ mao-dialectics/
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # 中文完整说明
 ├── assets/
-│   └── banner.svg                  # 项目横幅
+│   ├── banner.svg                  # 项目横幅
+│   └── example-output.svg          # 使用效果演示图
 └── references/
     ├── problem-routing.md          # 问题类型到方法路由
     ├── contradiction.md            # 矛盾论体系详解

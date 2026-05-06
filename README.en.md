@@ -38,17 +38,11 @@ It is not political propaganda or a pile of philosophical labels. The focus is o
 
 ## Example Prompts
 
-```text
-Help me analyze this product direction dialectically.
-```
+Here is the intended output shape in a real use case: the agent does not rush to a conclusion. It first separates the phenomenon, principal contradiction, conditions, and practice-oriented recommendation.
 
-The agent will locate the phenomenon, identify principal and secondary contradictions, analyze historical conditions and current constraints, then produce practice-oriented recommendations.
-
-```text
-I have three plans and cannot decide. Help me make a strategic plan.
-```
-
-The agent will compare the stage, resources, risks, timing, and fallback options of each plan before recommending the current priority.
+<p align="center">
+  <img src="assets/example-output.svg" width="920" alt="mao-dialectics usage example">
+</p>
 
 ## Installation
 
@@ -72,7 +66,8 @@ mao-dialectics/
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # Chinese documentation
 ├── assets/
-│   └── banner.svg                  # Project banner
+│   ├── banner.svg                  # Project banner
+│   └── example-output.svg          # Usage example preview
 └── references/
     ├── problem-routing.md          # Problem type to method routing
     ├── contradiction.md            # Theory of contradiction

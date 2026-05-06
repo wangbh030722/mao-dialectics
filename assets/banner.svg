@@ -1,72 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">mao-dialectics</title>
-  <desc id="desc">A refined archival banner for a Mao dialectics methodology skill.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">跟党学 Coding</title>
+  <desc id="desc">A grand deep-red ink wash banner with calligraphic title and a young Mao silhouette.</desc>
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fbf4e6"/>
-      <stop offset="0.52" stop-color="#f2dec1"/>
-      <stop offset="1" stop-color="#e5c093"/>
+    <radialGradient id="redGlow" cx="38%" cy="42%" r="82%">
+      <stop offset="0" stop-color="#b31d1d"/>
+      <stop offset="0.48" stop-color="#7d1111"/>
+      <stop offset="1" stop-color="#350707"/>
+    </radialGradient>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7d37b" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#f7d37b" stop-opacity="0.72"/>
+      <stop offset="0.78" stop-color="#f7d37b" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#f7d37b" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="crimson" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#c52424"/>
-      <stop offset="1" stop-color="#7f1515"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#4b241d" stroke-width="1" opacity="0.12"/>
-    </pattern>
-    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#461510" flood-opacity="0.22"/>
+    <filter id="inkBlur">
+      <feGaussianBlur stdDeviation="12"/>
     </filter>
+    <filter id="roughen">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="8"/>
+      <feDisplacementMap in="SourceGraphic" scale="12"/>
+    </filter>
+    <filter id="titleShadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#1b0303" flood-opacity="0.48"/>
+    </filter>
+    <pattern id="paperGrain" width="180" height="180" patternUnits="userSpaceOnUse">
+      <rect width="180" height="180" fill="none"/>
+      <circle cx="23" cy="37" r="1.2" fill="#fff1d0" opacity="0.13"/>
+      <circle cx="91" cy="68" r="1" fill="#fff1d0" opacity="0.10"/>
+      <circle cx="143" cy="118" r="1.4" fill="#fff1d0" opacity="0.11"/>
+      <circle cx="54" cy="151" r="0.9" fill="#2a0505" opacity="0.13"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="420" rx="34" fill="url(#paper)"/>
-  <rect width="1200" height="420" rx="34" fill="url(#grid)"/>
-  <path d="M0 0H1200V96H0z" fill="#241512" opacity="0.94"/>
-  <path d="M0 324H1200V420H0z" fill="#241512" opacity="0.94"/>
-  <path d="M0 0H92V420H0z" fill="url(#crimson)"/>
-  <path d="M1108 0H1200V420H1108z" fill="url(#crimson)"/>
+  <rect width="1400" height="520" rx="42" fill="url(#redGlow)"/>
+  <rect width="1400" height="520" rx="42" fill="url(#paperGrain)"/>
 
-  <g opacity="0.22">
-    <circle cx="1002" cy="210" r="116" fill="none" stroke="#8a1b16" stroke-width="18"/>
-    <circle cx="1002" cy="210" r="76" fill="none" stroke="#8a1b16" stroke-width="2"/>
-    <path d="M1002 122L1023 185H1089L1036 224L1056 286L1002 248L948 286L968 224L915 185H981z" fill="#8a1b16"/>
+  <g opacity="0.58" filter="url(#inkBlur)">
+    <path d="M-92 390C98 256 221 309 339 209C489 82 628 86 793 134C921 171 1030 146 1178 58C1272 2 1352-3 1494 43V616H-92z" fill="#130202"/>
+    <path d="M-60 168C98 121 245 142 358 73C473 3 594-16 733 37C855 84 953 107 1088 57C1222 8 1320 31 1456 111V-60H-60z" fill="#210303"/>
   </g>
 
-  <g filter="url(#softShadow)">
-    <rect x="148" y="132" width="562" height="158" rx="6" fill="#fbf4e6" opacity="0.88"/>
-    <rect x="164" y="148" width="530" height="126" rx="2" fill="none" stroke="#301815" stroke-width="2"/>
+  <g opacity="0.9" filter="url(#roughen)">
+    <path d="M58 330C180 289 237 213 326 227C430 243 470 138 577 159C669 177 681 247 785 213C871 184 924 113 1022 137C1095 155 1135 216 1219 204C1282 195 1321 153 1392 169V520H0V354C18 348 37 340 58 330z" fill="#170202" opacity="0.5"/>
+    <path d="M93 86C190 116 244 84 330 55C451 14 552 24 663 83C748 128 854 122 960 76C1060 33 1172 44 1310 116" fill="none" stroke="#2a0505" stroke-width="44" stroke-linecap="round" opacity="0.34"/>
   </g>
 
-  <text x="190" y="198" font-family="Songti SC, STSong, SimSun, serif" font-size="54" font-weight="700" fill="#241512" letter-spacing="2">
-    跟党学 Coding
-  </text>
-  <text x="193" y="239" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#8a1b16" letter-spacing="4">
-    MAO DIALECTICS
-  </text>
-  <text x="193" y="264" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#4a2c24">
-    把矛盾分析、调查研究、战略规划、执行复盘沉淀为 AI Agent 的思维工具箱
-  </text>
-
-  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#fbf4e6">
-    <rect x="764" y="142" width="118" height="38" rx="4" fill="#241512"/>
-    <text x="823" y="167" text-anchor="middle">辩证分析</text>
-    <rect x="764" y="191" width="118" height="38" rx="4" fill="#8a1b16"/>
-    <text x="823" y="216" text-anchor="middle">调查研究</text>
-    <rect x="764" y="240" width="118" height="38" rx="4" fill="#241512"/>
-    <text x="823" y="265" text-anchor="middle">战略规划</text>
-
-    <rect x="898" y="142" width="118" height="38" rx="4" fill="#8a1b16"/>
-    <text x="957" y="167" text-anchor="middle">头脑风暴</text>
-    <rect x="898" y="191" width="118" height="38" rx="4" fill="#241512"/>
-    <text x="957" y="216" text-anchor="middle">项目计划</text>
-    <rect x="898" y="240" width="118" height="38" rx="4" fill="#8a1b16"/>
-    <text x="957" y="265" text-anchor="middle">复盘总结</text>
+  <g opacity="0.72">
+    <path d="M112 107H714" stroke="url(#goldLine)" stroke-width="3"/>
+    <path d="M112 414H796" stroke="url(#goldLine)" stroke-width="3"/>
+    <text x="114" y="82" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f7d37b" letter-spacing="6">
+      MAO DIALECTICS METHOD KIT
+    </text>
+    <text x="115" y="450" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#f9e2a8" letter-spacing="5">
+      矛盾分析 · 调查研究 · 战略规划 · 执行复盘
+    </text>
   </g>
 
-  <text x="150" y="60" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f6dfbd" letter-spacing="4">
-    SELECTED WORKS METHOD KIT FOR SOFTWARE AGENTS
-  </text>
-  <text x="1050" y="370" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f6dfbd" letter-spacing="3" text-anchor="end">
-    PRACTICE · CONTRADICTION · STRATEGY
-  </text>
+  <g filter="url(#titleShadow)">
+    <text x="104" y="274" font-family="STXingkai, Xingkai SC, KaiTi, cursive" font-size="128" font-weight="700" fill="#fff3d2" letter-spacing="6">
+      跟党学 Coding
+    </text>
+    <text x="110" y="334" font-family="Songti SC, STSong, SimSun, serif" font-size="31" font-weight="700" fill="#f7d37b" letter-spacing="6">
+      以实践为尺，以辩证为法
+    </text>
+  </g>
+
+  <g transform="translate(982 74)" filter="url(#titleShadow)">
+    <path d="M172 21C206 31 229 55 234 89C240 130 219 160 186 176C178 180 176 187 181 194C198 216 218 240 236 268C262 310 289 344 330 370C344 379 348 395 337 407H19C7 394 10 377 27 368C67 347 93 316 107 279C120 244 139 215 159 195C165 189 163 181 154 177C120 160 100 130 104 91C108 51 134 17 172 21z" fill="#100202"/>
+    <path d="M87 117C109 86 149 73 194 82C223 88 246 83 263 69C253 41 231 18 201 7C166-6 124 2 96 31C75 52 66 83 70 116C75 115 81 116 87 117z" fill="#170303"/>
+    <path d="M109 77C148 51 208 51 258 73C235 30 198 5 155 9C112 13 83 44 72 91C82 89 94 84 109 77z" fill="#0c0101"/>
+    <path d="M130 170C144 189 166 199 190 196C215 193 235 178 245 157" fill="none" stroke="#260606" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+    <path d="M57 381C96 336 110 286 130 247C147 214 174 200 198 211C219 221 234 252 251 286C271 325 301 356 341 380" fill="#0b0101" opacity="0.94"/>
+    <path d="M50 405H350" stroke="#f7d37b" stroke-width="4" opacity="0.56"/>
+    <text x="199" y="448" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f7d37b" text-anchor="middle" letter-spacing="4">
+      YOUNG MAO SILHOUETTE
+    </text>
+  </g>
 </svg>
