@@ -1,50 +1,43 @@
-<p align="right">
-  <a href="README.en.md"><img src="https://img.shields.io/badge/English-blue?style=flat-square" alt="English"></a>
+<p align="center">
+  <img src="assets/banner.svg" width="920" alt="mao-dialectics">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/mao--dialectics-唯物辩证批判思维-cc2929?style=for-the-badge" alt="mao-dialectics">
+  <a href="README.en.md"><img src="https://img.shields.io/badge/English-1f2933?style=for-the-badge&logo=readme" alt="English"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/默认首页-中文-8a1b16?style=for-the-badge" alt="默认首页"></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License">
-  <img src="https://img.shields.io/badge/status-stable-brightgreen" alt="Status">
-  <img src="https://img.shields.io/badge/opencode-skill-7c3aed" alt="OpenCode Skill">
-</p>
+# 跟党学 Coding
 
----
-
-# 唯物辩证批判思维
-
-以《毛泽东选集》整体方法论体系为核心（含但不限于《矛盾论》《实践论》《反对本本主义》《中国社会各阶级的分析》《论持久战》《党委会的工作方法》《整顿党的作风》《改造我们的学习》等），赋予 AI 唯物辩证法的底层思维框架。
-
----
+**mao-dialectics** 是一个面向 AI Agent 的方法论技能包。它从《毛泽东选集》的辩证法、实践论、调查研究、战略判断与组织方法中提炼可操作的分析框架，用来帮助 Agent 把问题想清楚、把方案排出来、把执行落下去、把经验复盘出来。
 
 ## 总览
 
-**mao-dialectics** 是一个面向 AI Agent 的唯物辩证法技能包，方法论根植于《毛泽东选集》的完整体系。它不只是一个哲学概念集，而是一套可操作的思维框架——让 AI 在分析问题时自动运用辩证法的核心法则：
-
-- 看待任何事物都意识到**内部矛盾**是发展的根本动力
-- 在复杂局面中**抓住主要矛盾**
-- 坚持**具体问题具体分析**，不套公式
-- 以**实践**作为检验真理的唯一标准
-- 用**发展的、联系的、全面的**观点看问题
-
-### 双模运行
+这个 skill 有两种运行方式：
 
 | 模式 | 说明 |
 |------|------|
-| **被动模式（Always-On）** | 作为底层思维框架渗透在所有输出中，七条思维原则自动内化 |
-| **主动模式（On-Demand）** | 用户显式请求辩证分析时，输出结构化深度批判意见 |
+| 被动模式 Always-On | 作为底层思维框架渗透在所有输出中，自动内化七条辩证原则 |
+| 主动模式 On-Demand | 用户显式请求分析、规划、头脑风暴、计划或复盘时，进入结构化工作流 |
 
----
+七条底层原则：
+
+| # | 原则 | 核心含义 |
+|---|------|----------|
+| 1 | 矛盾普遍性 | 任何事物内部都包含对立统一的两方面 |
+| 2 | 主要矛盾优先 | 抓主要矛盾，不要眉毛胡子一把抓 |
+| 3 | 具体问题具体分析 | 不套公式，深入具体条件做判断 |
+| 4 | 实践检验原则 | 理论最终要回到实践验证 |
+| 5 | 历史发展观点 | 事物处于永恒发展中 |
+| 6 | 两点论 | 同时看到正面与反面、主流与支流 |
+| 7 | 量变质变警觉 | 注意量变积累到质变跳跃的临界点 |
 
 ## 问题类型路由
 
-不同类型的问题用不同的分析方法。详见 `problem-routing.md`：
+不同类型的问题用不同的分析方法。详见 `references/problem-routing.md`。
 
 | 问题类型 | 核心方法来源 |
-|---------|-------------|
+|----------|--------------|
 | 战略决策 | 矛盾论 + 持久战阶段论 |
 | 竞争格局 | 阶级分析法 + 强弱转化 |
 | 组织人事 | 党委会工作方法 + 批评与自我批评 |
@@ -56,27 +49,15 @@
 | 形势判断 | 目前形势和任务 + 矛盾论 |
 | 领导管理 | 弹钢琴 + 一般与个别结合 |
 
-## 核心方法论
+## 主动工作流
 
-### 七大思维原则（被动模式）
-
-| # | 原则 | 核心含义 |
-|---|------|---------|
-| 1 | 矛盾普遍性 | 任何事物内部都包含对立统一的两方面 |
-| 2 | 主要矛盾优先 | 抓主要矛盾，不要眉毛胡子一把抓 |
-| 3 | 具体问题具体分析 | 不套公式，深入具体条件做判断 |
-| 4 | 实践检验原则 | 理论最终要回到实践验证 |
-| 5 | 历史发展观点 | 事物处于永恒发展中 |
-| 6 | 两点论 | 同时看到正面与反面、主流与支流 |
-| 7 | 量变质变警觉 | 注意量变积累到质变跳跃的临界点 |
-
-### 六步分析工作流（主动模式）
-
-```
-现象定位 → 矛盾识别 → 历史溯源 → 条件与趋势分析 → 批判性诊断 → 实践指导
-```
-
----
+| 工作流 | 输出重点 |
+|--------|----------|
+| 辩证分析 | 现象定位、矛盾识别、历史溯源、趋势判断、实践建议 |
+| 战略规划 | 形势分析、阶段划分、方针制定、部署计划、风险后手 |
+| 头脑风暴 | 问题定性、充分发散、去粗取精、普及与提高 |
+| 项目计划 | 胸中有数、弹钢琴、集中优势兵力、组织起来 |
+| 复盘总结 | 回顾事实、分析原因、自我批评、提炼经验 |
 
 ## 安装
 
@@ -85,27 +66,30 @@ git clone https://github.com/wangbh030722/mao-dialectics.git
 cp -r mao-dialectics ~/.config/opencode/skills/
 ```
 
----
+安装后，在新会话中可直接使用：
+
+```text
+skill("mao-dialectics")
+```
 
 ## 文件结构
 
-```
+```text
 mao-dialectics/
-├── SKILL.md                   # 核心方法论 + 双模工作流
-├── LICENSE                    # MIT 许可证
-├── README.md                  # 语言选择页
-├── README.zh.md               # 中文说明
-├── README.en.md               # 英文说明
-    └── references/
-    ├── problem-routing.md     # 问题类型→方法路由表（12种类型）
-    ├── contradiction.md       # 矛盾论体系详解
-    ├── practice.md            # 实践论体系详解
-    ├── methodology.md         # 方法论工具箱（毛选四卷完整体系）
-    └── analytical-schema.md   # 分析模板 + 经典案例拆解
+├── SKILL.md                        # 核心方法论与双模工作流
+├── README.md                       # 中文默认首页
+├── README.en.md                    # English documentation
+├── README.zh.md                    # 中文完整说明
+├── assets/
+│   └── banner.svg                  # 项目横幅
+└── references/
+    ├── problem-routing.md          # 问题类型到方法路由
+    ├── contradiction.md            # 矛盾论体系详解
+    ├── practice.md                 # 实践论体系详解
+    ├── methodology.md              # 方法论工具箱
+    └── analytical-schema.md        # 分析模板与案例拆解
 ```
-
----
 
 ## 许可证
 
-MIT &copy; 2025 wangbh030722
+MIT &copy; 2025 [wangbh030722](https://github.com/wangbh030722)
