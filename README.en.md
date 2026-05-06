@@ -38,6 +38,23 @@ Rather than a collection of abstract philosophical concepts, this skill provides
 
 ---
 
+## Problem-Type Routing
+
+Different problems use different analytical methods. See `problem-routing.md`:
+
+| Problem Type | Core Method Source |
+|-------------|-------------------|
+| Strategic Decision | Contradiction + Stage Analysis |
+| Competitive Landscape | Class Analysis + Strength-Weakness Shift |
+| Organization/People | Work Methods + Criticism & Self-Criticism |
+| New Things Assessment | "A Single Spark" + Survival Conditions |
+| Investigation & Research | Oppose Bookishness + Hunan Report |
+| Crisis & Difficulty | Protracted War + Jinggangshan |
+| Policy Making | On Policy + Mass Line |
+| Cooperation & Negotiation | United Front + Reason, Advantage, Restraint |
+| Situation Assessment | Current Situation + Contradiction |
+| Leadership & Management | Piano Method + General & Specific |
+
 ## Core Methodology
 
 ### Seven Thinking Principles (Passive Mode)
@@ -79,10 +96,11 @@ mao-dialectics/
 ├── README.md                  # Language selection page
 ├── README.zh.md               # Chinese documentation
 ├── README.en.md               # English documentation
-└── references/
+    └── references/
+    ├── problem-routing.md     # Problem type → method routing (12 types)
     ├── contradiction.md       # Theory of Contradiction
     ├── practice.md            # Theory of Practice
-    ├── methodology.md         # Methodological toolbox
+    ├── methodology.md         # Methodological toolbox (full 4-volume coverage)
     └── analytical-schema.md   # Analysis templates + case studies
 ```
 
