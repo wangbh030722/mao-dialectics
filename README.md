@@ -1,114 +1,225 @@
-<p align="right">
-  <a href="README.en.md"><img src="https://img.shields.io/badge/English-blue?style=flat-square" alt="English"></a>
+<p align="center">
+  <img src="assets/banner.svg" width="800" alt="跟党学 Coding">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/跟党学Coding-唯物辩证·战略规划·头脑风暴-cc2929?style=for-the-badge" alt="跟党学 Coding">
+  <a href="README.en.md"><img src="https://img.shields.io/badge/English-1a5276?style=for-the-badge&logo=readme" alt="English"></a>
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT">
+  <img src="https://img.shields.io/badge/status-stable-brightgreen?style=flat-square" alt="Stable">
+  <img src="https://img.shields.io/badge/opencode-skill-7c3aed?style=flat-square" alt="OpenCode Skill">
 </p>
+
+<br>
+
+---
+
+<br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License">
-  <img src="https://img.shields.io/badge/status-stable-brightgreen" alt="Status">
-  <img src="https://img.shields.io/badge/opencode-skill-7c3aed" alt="OpenCode Skill">
+  <b>以《毛泽东选集》方法论体系为核心</b><br>
+  覆盖 <b>辩证分析</b> · <b>战略规划</b> · <b>头脑风暴</b> · <b>项目计划</b> · <b>复盘总结</b> 全链路
 </p>
 
----
-
-# 跟党学 Coding
-
-以《毛泽东选集》整体方法论体系为核心，覆盖**辩证分析、战略规划、头脑风暴、项目计划、复盘总结**全链路的方法论框架。
+<br>
 
 ---
 
-## 总览
+<br>
 
-**跟党学 Coding** 是一个面向 AI Agent 的完整方法论框架，根植于《毛泽东选集》四卷的完整体系。不只传授辩证思维，还教你怎么做战略规划、用什么方法头脑风暴、如何制定可执行的计划、以及做完后如何复盘。覆盖从"想清楚"到"做出来"再到"回头看"的全过程：
+## 🚀 五大核心能力
 
-- 看待任何事物都意识到**内部矛盾**是发展的根本动力
-- 在复杂局面中**抓住主要矛盾**
-- 坚持**具体问题具体分析**，不套公式
-- 以**实践**作为检验真理的唯一标准
-- 用**发展的、联系的、全面的**观点看问题
+<table>
+  <tr>
+    <td width="20%" align="center">
+      <br>
+      <b>🧠 辩证分析</b><br>
+      <br>
+      <sub>看问题不片面，抓主要矛盾</sub>
+      <br><br>
+    </td>
+    <td width="20%" align="center">
+      <br>
+      <b>🔍 调查研究</b><br>
+      <br>
+      <sub>没有调查就没有发言权</sub>
+      <br><br>
+    </td>
+    <td width="20%" align="center">
+      <br>
+      <b>🎯 战略规划</b><br>
+      <br>
+      <sub>分阶段、看趋势、定方向</sub>
+      <br><br>
+    </td>
+    <td width="20%" align="center">
+      <br>
+      <b>💡 头脑风暴</b><br>
+      <br>
+      <sub>百花齐放、百家争鸣</sub>
+      <br><br>
+    </td>
+    <td width="20%" align="center">
+      <br>
+      <b>♻️ 复盘总结</b><br>
+      <br>
+      <sub>从实践中学习，从历史中提高</sub>
+      <br><br>
+    </td>
+  </tr>
+</table>
 
-### 双模运行
+<br>
+
+---
+
+<br>
+
+## 🌟 双模运行
 
 | 模式 | 说明 |
 |------|------|
-| **被动模式（Always-On）** | 作为底层思维框架渗透在所有输出中，七条思维原则自动内化 |
-| **主动模式（On-Demand）** | 用户显式请求辩证分析时，输出结构化深度批判意见 |
+| **被动模式** · Always-On | 底层思维框架自动渗透所有输出，七条辩证原则自然内化 |
+| **主动模式** · On-Demand | 五大工作流按需调用：辩证分析 / 战略规划 / 头脑风暴 / 项目计划 / 复盘总结 |
+
+<br>
 
 ---
 
-## 问题类型路由
+<br>
 
-不同类型的问题用不同的分析方法，不再套用一个模板：
+## 🎯 问题类型路由
 
-| 问题类型 | 核心方法来源 |
-|---------|-------------|
-| 辩证分析 | 矛盾论 + 实践论 |
-| 战略规划 | 中国革命战争的战略问题 + 持久战阶段论 |
-| 竞争格局 | 阶级分析法 + 强弱转化 |
-| 组织人事 | 党委会工作方法 + 批评与自我批评 |
-| 新生事物 | 星星之火 + 红色政权存在条件 |
-| 调查研究 | 反对本本主义 + 湖南考察报告 |
-| 头脑风暴 | 百花齐放 + 普及与提高 |
-| 项目计划 | 弹钢琴 + 集中优势兵力 |
-| 危机困难 | 持久战 + 井冈山斗争 |
-| 复盘总结 | 学习和时局 + 整顿党的作风 |
-| 合作谈判 | 统一战线 + 有理有利有节 |
-| 形势判断 | 目前形势和任务 + 矛盾论 |
+不同的问题用不同的方法，不套一个模板。
+
+<table>
+  <tr>
+    <th align="left">问题类型</th>
+    <th align="left">核心方法来源</th>
+  </tr>
+  <tr>
+    <td><b>🧠 辩证分析</b></td>
+    <td>矛盾论 + 实践论 + 两点论</td>
+  </tr>
+  <tr>
+    <td><b>🔍 调查研究</b></td>
+    <td>反对本本主义 + 湖南考察报告</td>
+  </tr>
+  <tr>
+    <td><b>🎯 战略规划</b></td>
+    <td>中国革命战争的战略问题 + 持久战</td>
+  </tr>
+  <tr>
+    <td><b>🏢 竞争格局</b></td>
+    <td>阶级分析法 + 强弱转化</td>
+  </tr>
+  <tr>
+    <td><b>💡 头脑风暴</b></td>
+    <td>百花齐放 + 普及与提高</td>
+  </tr>
+  <tr>
+    <td><b>📋 项目计划</b></td>
+    <td>弹钢琴 + 集中优势兵力</td>
+  </tr>
+  <tr>
+    <td><b>♻️ 复盘总结</b></td>
+    <td>学习和时局 + 整顿党的作风</td>
+  </tr>
+  <tr>
+    <td><b>🌱 新生事物评估</b></td>
+    <td>星星之火 + 红色政权存在条件</td>
+  </tr>
+  <tr>
+    <td><b>🆘 危机困难</b></td>
+    <td>持久战 + 井冈山的斗争</td>
+  </tr>
+  <tr>
+    <td><b>🤝 合作谈判</b></td>
+    <td>统一战线 + 有理有利有节</td>
+  </tr>
+  <tr>
+    <td><b>👁️ 形势判断</b></td>
+    <td>目前形势和任务 + 矛盾论</td>
+  </tr>
+  <tr>
+    <td><b>👥 领导管理</b></td>
+    <td>弹钢琴 + 一般与个别结合</td>
+  </tr>
+</table>
+
+<br>
 
 ---
 
-## 核心方法论
+<br>
 
-### 七大思维原则（被动模式）
-
-| # | 原则 | 核心含义 |
-|---|------|---------|
-| 1 | 矛盾普遍性 | 任何事物内部都包含对立统一的两方面 |
-| 2 | 主要矛盾优先 | 抓主要矛盾，不要眉毛胡子一把抓 |
-| 3 | 具体问题具体分析 | 不套公式，深入具体条件做判断 |
-| 4 | 实践检验原则 | 理论最终要回到实践验证 |
-| 5 | 历史发展观点 | 事物处于永恒发展中 |
-| 6 | 两点论 | 同时看到正面与反面、主流与支流 |
-| 7 | 量变质变警觉 | 注意量变积累到质变跳跃的临界点 |
-
-### 六步分析工作流（主动模式）
-
-```
-现象定位 → 矛盾识别 → 历史溯源 → 条件与趋势分析 → 批判性诊断 → 实践指导
-```
-
----
-
-## 安装
+## 🛠️ 安装
 
 ```bash
+# 克隆仓库
 git clone https://github.com/wangbh030722/mao-dialectics.git
+
+# 复制到 opencode skills 目录
 cp -r mao-dialectics ~/.config/opencode/skills/
 ```
 
+安装后，在新会话中可直接使用 `skill("mao-dialectics")` 加载。
+
+<br>
+
 ---
 
-## 文件结构
+<br>
+
+## 📖 文件结构
 
 ```
 mao-dialectics/
-├── SKILL.md                   # 核心方法论 + 双模工作流
-├── LICENSE                    # MIT 许可证
-├── README.md                  # 中文说明（默认首页）
-├── README.en.md               # 英文说明
-└── references/
-    ├── problem-routing.md     # 问题类型→方法路由表（12种类型）
-    ├── contradiction.md       # 矛盾论体系详解
-    ├── practice.md            # 实践论体系详解
-    ├── methodology.md         # 方法论工具箱（毛选四卷完整体系）
-    └── analytical-schema.md   # 分析模板 + 经典案例拆解
+├── 📄 SKILL.md                        # 核心方法论 + 双模工作流
+├── 📄 LICENSE                         # MIT 许可证
+├── 📄 README.md                       # 中文说明（默认首页）
+├── 📄 README.en.md                    # 英文说明
+├── 🖼️ assets/
+│   └── banner.svg                     # 项目横幅
+└── 📚 references/
+    ├── problem-routing.md             # 问题类型→方法路由表（16种类型）
+    ├── contradiction.md               # 矛盾论体系详解
+    ├── practice.md                    # 实践论体系详解
+    ├── methodology.md                 # 方法论工具箱（毛选四卷完整体系）
+    └── analytical-schema.md           # 分析模板 + 经典案例拆解
 ```
+
+<br>
 
 ---
 
-## 许可证
+<br>
 
-MIT &copy; 2025 wangbh030722
+## 📚 方法论体系总览
+
+本 skill 的根源于《毛泽东选集》四卷完整体系，从中遴选了约 **40 篇**具有直接方法论价值的篇章，提炼为可操作的分析框架。
+
+| 主题 | 核心篇章 |
+|------|---------|
+| 🧠 唯物辩证法基础 | 矛盾论、实践论 |
+| 🔍 调查研究 | 反对本本主义、湖南考察报告 |
+| 🎯 竞争与战略 | 阶级分析、论持久战、集中优势兵力 |
+| 👥 组织与团队 | 党委会工作方法、反对自由主义 |
+| 📋 策略制定 | 论政策、统一战线 |
+| 👁️ 形势判断 | 星星之火、目前形势和任务 |
+| 💡 创意与学习 | 文艺座谈会讲话、反对党八股 |
+| 🌟 价值观与修养 | 纪念白求恩、为人民服务、愚公移山 |
+
+<br>
+
+---
+
+<br>
+
+<p align="center">
+  <b>跟党学 Coding</b> — 不是意识形态，是方法论。<br>
+  以历史为镜，以实践为尺，以辩证为法。
+</p>
+
+<p align="center">
+  <sub>MIT &copy; 2025 <a href="https://github.com/wangbh030722">wangbh030722</a></sub>
+</p>
