@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="920" alt="mao-dialectics">
+  <img src="assets/banner.png" width="920" alt="mao-dialectics">
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@
 
 ## 使用示例
 
-下面是一次真实使用时的输出形态：它不会急着给结论，而是先把现象、主要矛盾、条件判断和实践建议拆开。
+下面是两类真实使用时的输出形态：一个偏产品方向判断，一个偏 coding 架构决策。它不会急着给结论，而是先把现象、主要矛盾、条件判断和实践建议拆开。
 
 <p align="center">
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics 使用效果演示">
@@ -66,7 +66,7 @@ mao-dialectics/
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # 中文完整说明
 ├── assets/
-│   ├── banner.svg                  # 项目横幅
+│   ├── banner.png                  # 项目横幅
 │   └── example-output.svg          # 使用效果演示图
 └── references/
     ├── problem-routing.md          # 问题类型到方法路由

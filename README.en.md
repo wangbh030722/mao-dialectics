@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="920" alt="mao-dialectics">
+  <img src="assets/banner.png" width="920" alt="mao-dialectics">
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@ It is not political propaganda or a pile of philosophical labels. The focus is o
 
 ## Example Prompts
 
-Here is the intended output shape in a real use case: the agent does not rush to a conclusion. It first separates the phenomenon, principal contradiction, conditions, and practice-oriented recommendation.
+Here are two intended output shapes: one for product direction and one for coding architecture. The agent does not rush to a conclusion. It first separates the phenomenon, principal contradiction, conditions, and practice-oriented recommendation.
 
 <p align="center">
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics usage example">
@@ -66,7 +66,7 @@ mao-dialectics/
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # Chinese documentation
 ├── assets/
-│   ├── banner.svg                  # Project banner
+│   ├── banner.png                  # Project banner
 │   └── example-output.svg          # Usage example preview
 └── references/
     ├── problem-routing.md          # Problem type to method routing

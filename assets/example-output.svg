@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
-  <title id="title">mao-dialectics usage example</title>
-  <desc id="desc">A white-background horizontal demonstration of a real dialectical analysis output.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 940" role="img" aria-labelledby="title desc">
+  <title id="title">mao-dialectics usage examples</title>
+  <desc id="desc">A white-background horizontal demonstration with one product analysis output and one coding architecture output.</desc>
   <defs>
     <filter id="cardShadow" x="-8%" y="-8%" width="116%" height="116%">
-      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1f2933" flood-opacity="0.13"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1f2933" flood-opacity="0.12"/>
     </filter>
     <linearGradient id="redHeader" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#a51b1b"/>
@@ -11,89 +11,105 @@
     </linearGradient>
   </defs>
 
-  <rect width="1400" height="760" fill="#ffffff"/>
-  <rect x="42" y="42" width="1316" height="676" rx="26" fill="#ffffff" stroke="#eadfce" stroke-width="2" filter="url(#cardShadow)"/>
-  <rect x="42" y="42" width="1316" height="86" rx="26" fill="url(#redHeader)"/>
-  <path d="M42 100H1358V128H42z" fill="url(#redHeader)"/>
+  <rect width="1600" height="940" fill="#ffffff"/>
+  <rect x="46" y="44" width="1508" height="852" rx="28" fill="#ffffff" stroke="#eadfce" stroke-width="2" filter="url(#cardShadow)"/>
+  <rect x="46" y="44" width="1508" height="86" rx="28" fill="url(#redHeader)"/>
+  <path d="M46 102H1554V130H46z" fill="url(#redHeader)"/>
 
-  <text x="82" y="96" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#fff7df">
-    使用效果演示：从一句问题到结构化辩证分析
+  <text x="88" y="98" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="800" fill="#fff7df">
+    使用效果演示：产品判断与 Coding 架构都能进入同一套方法论
   </text>
-  <text x="1280" y="96" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f6d98f" text-anchor="end" letter-spacing="3">
+  <text x="1476" y="98" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f6d98f" text-anchor="end" letter-spacing="3">
     MAO-DIALECTICS
   </text>
 
-  <g transform="translate(82 168)">
-    <text x="0" y="0" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#8a1b16" letter-spacing="2">
-      USER PROMPT
+  <g transform="translate(88 168)">
+    <rect width="688" height="650" rx="20" fill="#faf7f1" stroke="#eadfce"/>
+    <text x="32" y="48" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#8a1b16" letter-spacing="2">
+      CASE 01 · PRODUCT DIRECTION
     </text>
-    <rect x="0" y="22" width="382" height="246" rx="16" fill="#faf7f1" stroke="#eadfce"/>
-    <text x="28" y="70" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="800" fill="#241512">
-      帮我从辩证法角度
+    <text x="32" y="90" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="800" fill="#241512">
+      用户：长期记忆系统应该先做自动总结，
     </text>
-    <text x="28" y="111" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="800" fill="#241512">
-      看一下这个产品方向：
-    </text>
-    <text x="28" y="163" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#4a2c24">
-      “AI Agent 长期记忆系统
-    </text>
-    <text x="28" y="199" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#4a2c24">
-      应该先做成自动总结，
-    </text>
-    <text x="28" y="235" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#4a2c24">
-      还是先做成可编辑知识库？”
-    </text>
-  </g>
-
-  <g transform="translate(520 168)">
-    <text x="0" y="0" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#8a1b16" letter-spacing="2">
-      AGENT OUTPUT
+    <text x="32" y="128" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="800" fill="#241512">
+      还是先做可编辑知识库？
     </text>
 
-    <g transform="translate(0 22)">
-      <rect width="372" height="168" rx="16" fill="#ffffff" stroke="#eadfce"/>
-      <rect x="0" y="0" width="9" height="168" rx="4" fill="#8a1b16"/>
-      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">1. 现象定位</text>
-      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">表面上是在选功能优先级，</text>
-      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">本质上是在处理“可靠积累”</text>
-      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">和“用户掌控感”的关系。</text>
+    <g transform="translate(32 172)">
+      <rect width="624" height="90" rx="14" fill="#ffffff" stroke="#eadfce"/>
+      <rect width="8" height="90" rx="4" fill="#8a1b16"/>
+      <text x="28" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">现象定位</text>
+      <text x="138" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">表面是功能优先级，本质是“可靠积累”和</text>
+      <text x="138" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">“用户掌控感”的矛盾。</text>
     </g>
 
-    <g transform="translate(404 22)">
-      <rect width="372" height="168" rx="16" fill="#ffffff" stroke="#eadfce"/>
-      <rect x="0" y="0" width="9" height="168" rx="4" fill="#b88922"/>
-      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">2. 主要矛盾</text>
-      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">自动总结能降低使用门槛，</text>
-      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">但如果不可编辑，用户很难</text>
-      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">信任系统记住了什么。</text>
+    <g transform="translate(32 284)">
+      <rect width="624" height="90" rx="14" fill="#ffffff" stroke="#eadfce"/>
+      <rect width="8" height="90" rx="4" fill="#b88922"/>
+      <text x="28" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">主要矛盾</text>
+      <text x="138" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">自动总结降低门槛，但不可编辑会削弱信任。</text>
+      <text x="138" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">早期要先让用户看见并修正记忆。</text>
     </g>
 
-    <g transform="translate(0 220)">
-      <rect width="372" height="168" rx="16" fill="#ffffff" stroke="#eadfce"/>
-      <rect x="0" y="0" width="9" height="168" rx="4" fill="#2f4f2f"/>
-      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">3. 条件判断</text>
-      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">早期阶段最缺的不是记得多，</text>
-      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">而是让用户看到、修正、确认</text>
-      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">记忆如何形成。</text>
+    <g transform="translate(32 396)">
+      <rect width="624" height="90" rx="14" fill="#ffffff" stroke="#eadfce"/>
+      <rect width="8" height="90" rx="4" fill="#2f4f2f"/>
+      <text x="28" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">条件判断</text>
+      <text x="138" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">用户还没有建立信任时，“透明可控”比“自动化</text>
+      <text x="138" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">程度高”更关键。</text>
     </g>
 
-    <g transform="translate(404 220)">
-      <rect width="372" height="168" rx="16" fill="#fffaf0" stroke="#d9b761"/>
-      <rect x="0" y="0" width="9" height="168" rx="4" fill="#8a1b16"/>
-      <text x="32" y="43" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#241512">4. 实践建议</text>
-      <text x="32" y="82" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">先做可编辑知识库作为底座，</text>
-      <text x="32" y="114" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" fill="#4a2c24">再叠加自动总结。判断标准：</text>
-      <text x="32" y="146" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#8a1b16">用户愿不愿意反复使用。</text>
+    <g transform="translate(32 508)">
+      <rect width="624" height="96" rx="14" fill="#fffaf0" stroke="#d9b761"/>
+      <rect width="8" height="96" rx="4" fill="#8a1b16"/>
+      <text x="28" y="37" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">实践建议</text>
+      <text x="138" y="37" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">先做可编辑知识库作为底座，再叠加自动总结。</text>
+      <text x="138" y="68" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="800" fill="#8a1b16">验证指标：用户是否愿意反复回来看和改。</text>
     </g>
   </g>
 
-  <g transform="translate(82 592)">
-    <rect width="1236" height="74" rx="14" fill="#241512"/>
-    <text x="34" y="47" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#fff7df">
-      输出特征：
+  <g transform="translate(824 168)">
+    <rect width="688" height="650" rx="20" fill="#ffffff" stroke="#eadfce"/>
+    <text x="32" y="48" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#8a1b16" letter-spacing="2">
+      CASE 02 · CODING ARCHITECTURE
     </text>
-    <text x="148" y="47" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" fill="#fff7df">
-      不急着给结论，先拆矛盾、看条件、定阶段，最后给可验证的行动建议。
+    <text x="32" y="90" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="800" fill="#241512">
+      用户：这个记忆模块要放进主进程，
     </text>
+    <text x="32" y="128" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="800" fill="#241512">
+      还是拆成独立 service？
+    </text>
+
+    <g transform="translate(32 172)">
+      <rect width="624" height="90" rx="14" fill="#faf7f1" stroke="#eadfce"/>
+      <rect width="8" height="90" rx="4" fill="#8a1b16"/>
+      <text x="28" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">架构矛盾</text>
+      <text x="138" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">主进程集成快、调用简单；独立 service 边界清晰，</text>
+      <text x="138" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">但会引入部署、观测和一致性成本。</text>
+    </g>
+
+    <g transform="translate(32 284)">
+      <rect width="624" height="90" rx="14" fill="#faf7f1" stroke="#eadfce"/>
+      <rect width="8" height="90" rx="4" fill="#b88922"/>
+      <text x="28" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">阶段判断</text>
+      <text x="138" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">如果 API、schema、召回策略都还在变，过早拆服务</text>
+      <text x="138" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">会让不稳定边界变成长期包袱。</text>
+    </g>
+
+    <g transform="translate(32 396)">
+      <rect width="624" height="90" rx="14" fill="#faf7f1" stroke="#eadfce"/>
+      <rect width="8" height="90" rx="4" fill="#2f4f2f"/>
+      <text x="28" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">落地路线</text>
+      <text x="138" y="35" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">先做进程内模块，但用 repository / indexer / retriever</text>
+      <text x="138" y="66" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" fill="#4a2c24">三层接口隔离未来服务化边界。</text>
+    </g>
+
+    <g transform="translate(32 508)">
+      <rect width="624" height="96" rx="14" fill="#fffaf0" stroke="#d9b761"/>
+      <rect width="8" height="96" rx="4" fill="#8a1b16"/>
+      <text x="28" y="37" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#241512">代码输出</text>
+      <text x="138" y="37" font-family="Avenir Next, Menlo, monospace" font-size="18" fill="#4a2c24">MemoryRepository -> MemoryIndexer -> Retriever</text>
+      <text x="138" y="68" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="19" font-weight="800" fill="#8a1b16">当 QPS、数据隔离或权限边界稳定后再拆 service。</text>
+    </g>
   </g>
 </svg>
