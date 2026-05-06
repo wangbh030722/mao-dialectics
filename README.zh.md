@@ -5,6 +5,10 @@
 <p align="center">
   <a href="README.en.md"><img src="https://img.shields.io/badge/English-1f2933?style=for-the-badge&logo=readme" alt="English"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/默认首页-中文-8a1b16?style=for-the-badge" alt="默认首页"></a>
+  <img src="https://img.shields.io/badge/AI_Agent-Skill-c52424?style=for-the-badge" alt="AI Agent Skill">
+  <img src="https://img.shields.io/badge/OpenCode-ready-555555?style=for-the-badge" alt="OpenCode ready">
+  <img src="https://img.shields.io/badge/Claude_Code-ready-555555?style=for-the-badge" alt="Claude Code ready">
+  <img src="https://img.shields.io/badge/Codex-ready-555555?style=for-the-badge" alt="Codex ready">
 </p>
 
 # 跟党学 Coding
@@ -69,6 +73,8 @@
 
 ## 安装
 
+### OpenCode
+
 ```bash
 git clone https://github.com/wangbh030722/mao-dialectics.git
 cp -r mao-dialectics ~/.config/opencode/skills/
@@ -79,6 +85,14 @@ cp -r mao-dialectics ~/.config/opencode/skills/
 ```text
 skill("mao-dialectics")
 ```
+
+### Claude Code / Codex / 其他 Agent
+
+```bash
+git clone https://github.com/wangbh030722/mao-dialectics.git
+```
+
+把仓库中的 `SKILL.md` 作为自定义指令或技能入口加载；需要更完整的方法论上下文时，同时让 Agent 读取 `references/` 目录中的参考文件。
 
 ## 文件结构
 

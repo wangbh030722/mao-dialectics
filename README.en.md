@@ -6,7 +6,10 @@
   <a href="README.md"><img src="https://img.shields.io/badge/中文-简体-8a1b16?style=for-the-badge&logo=readme" alt="中文"></a>
   <img src="https://img.shields.io/badge/license-MIT-8a1b16?style=for-the-badge" alt="MIT">
   <img src="https://img.shields.io/badge/status-stable-2f4f2f?style=for-the-badge" alt="Stable">
-  <img src="https://img.shields.io/badge/opencode-skill-c52424?style=for-the-badge" alt="OpenCode Skill">
+  <img src="https://img.shields.io/badge/AI_Agent-Skill-c52424?style=for-the-badge" alt="AI Agent Skill">
+  <img src="https://img.shields.io/badge/OpenCode-ready-555555?style=for-the-badge" alt="OpenCode ready">
+  <img src="https://img.shields.io/badge/Claude_Code-ready-555555?style=for-the-badge" alt="Claude Code ready">
+  <img src="https://img.shields.io/badge/Codex-ready-555555?style=for-the-badge" alt="Codex ready">
 </p>
 
 # Mao Dialectics for Coding
@@ -46,6 +49,8 @@ Here are two intended output shapes: one for product direction and one for codin
 
 ## Installation
 
+### OpenCode
+
 ```bash
 git clone https://github.com/wangbh030722/mao-dialectics.git
 cp -r mao-dialectics ~/.config/opencode/skills/
@@ -56,6 +61,14 @@ After installation, load it in a new session:
 ```text
 skill("mao-dialectics")
 ```
+
+### Claude Code / Codex / Other Agents
+
+```bash
+git clone https://github.com/wangbh030722/mao-dialectics.git
+```
+
+Use `SKILL.md` as the custom instruction or skill entrypoint. For the full methodology context, also point the agent at the files in `references/`.
 
 ## File Structure
 
