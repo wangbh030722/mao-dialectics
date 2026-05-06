@@ -16,13 +16,13 @@
 
 # mao-dialectics
 
-A materialist dialectical thinking framework for AI agents, grounded in Mao Zedong's "On Contradiction" and "On Practice".
+A materialist dialectical thinking framework for AI agents, grounded in the full methodology of the Selected Works of Mao Zedong (including but not limited to "On Contradiction", "On Practice", "Oppose Bookishness", "Analysis of Classes in Chinese Society", "On Protracted War", "Methods of Work of Party Committees").
 
 ---
 
 ## Overview
 
-**mao-dialectics** is an opencode skill that equips AI agents with a materialist dialectical thinking framework. It distills core principles from classical dialectical philosophy into a practical, operationable methodology.
+**mao-dialectics** is an opencode skill that equips AI agents with a materialist dialectical thinking framework, grounded in the full methodology of the Selected Works of Mao Zedong. It distills core principles from classical dialectical philosophy into a practical, operationable methodology.
 
 Rather than a collection of abstract philosophical concepts, this skill provides:
 
