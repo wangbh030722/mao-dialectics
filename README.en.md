@@ -4,12 +4,8 @@
 
 <p align="center">
   <a href="README.md"><img src="https://img.shields.io/badge/中文-简体-8a1b16?style=for-the-badge&logo=readme" alt="中文"></a>
-  <img src="https://img.shields.io/badge/license-MIT-8a1b16?style=for-the-badge" alt="MIT">
-  <img src="https://img.shields.io/badge/status-stable-2f4f2f?style=for-the-badge" alt="Stable">
-  <img src="https://img.shields.io/badge/AI_Agent-Skill-c52424?style=for-the-badge" alt="AI Agent Skill">
-  <img src="https://img.shields.io/badge/OpenCode-ready-555555?style=for-the-badge" alt="OpenCode ready">
-  <img src="https://img.shields.io/badge/Claude_Code-ready-555555?style=for-the-badge" alt="Claude Code ready">
-  <img src="https://img.shields.io/badge/Codex-ready-555555?style=for-the-badge" alt="Codex ready">
+  <img src="https://img.shields.io/badge/license-MIT-8a1b16?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/agent-skill-c52424?style=for-the-badge" alt="Agent Skill">
 </p>
 
 # Mao Dialectics for Coding
@@ -46,6 +42,15 @@ Here are two intended output shapes: one for product direction and one for codin
 <p align="center">
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics usage example">
 </p>
+
+## Compatibility
+
+| Tool | Repository entrypoint | Installation | Status |
+|------|-----------------------|--------------|--------|
+| OpenCode | `SKILL.md` | `bash scripts/install.sh opencode` | Supported |
+| Codex | `SKILL.md` + `AGENTS.md` + `agents/openai.yaml` | `bash scripts/install.sh codex` | Supported |
+| Claude Code | `CLAUDE.md` + `.claude/commands/mao-dialectics.md` | `bash scripts/install.sh claude` | Supported |
+| Other agents | `SKILL.md` + `references/` | Load manually as custom instructions | Reusable |
 
 ## Installation
 
@@ -98,6 +103,8 @@ mao-dialectics/
 ├── .claude/
 │   └── commands/
 │       └── mao-dialectics.md       # Claude Code slash command
+├── agents/
+│   └── openai.yaml                 # Codex/OpenAI skill UI metadata
 ├── assets/
 │   ├── banner.png                  # Project banner
 │   └── example-output.svg          # Usage example preview
@@ -125,6 +132,10 @@ This skill is based on methodology-oriented essays from the four volumes of the 
 | Situation assessment | A Single Spark, Current Situation and Our Tasks |
 | Creativity and learning | Talks at the Yan'an Forum, Oppose Stereotyped Party Writing |
 | Values and discipline | In Memory of Norman Bethune, Serve the People, The Foolish Old Man |
+
+## Disclaimer
+
+This project is a methodology tool for AI agents. It focuses on analysis frameworks, problem decomposition, strategy, and practical validation. It is not political propaganda and is not intended for historical-person evaluation. Outputs should be treated as thinking aids; users should verify facts, quotations, engineering decisions, and high-risk recommendations in context.
 
 <p align="center">
   <strong>Guided by history, tested by practice, sharpened by dialectics.</strong><br>

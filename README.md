@@ -4,12 +4,8 @@
 
 <p align="center">
   <a href="README.en.md"><img src="https://img.shields.io/badge/English-1f2933?style=for-the-badge&logo=readme" alt="English"></a>
-  <img src="https://img.shields.io/badge/license-MIT-8a1b16?style=for-the-badge" alt="MIT">
-  <img src="https://img.shields.io/badge/status-stable-2f4f2f?style=for-the-badge" alt="Stable">
-  <img src="https://img.shields.io/badge/AI_Agent-Skill-c52424?style=for-the-badge" alt="AI Agent Skill">
-  <img src="https://img.shields.io/badge/OpenCode-ready-555555?style=for-the-badge" alt="OpenCode ready">
-  <img src="https://img.shields.io/badge/Claude_Code-ready-555555?style=for-the-badge" alt="Claude Code ready">
-  <img src="https://img.shields.io/badge/Codex-ready-555555?style=for-the-badge" alt="Codex ready">
+  <img src="https://img.shields.io/badge/license-MIT-8a1b16?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/agent-skill-c52424?style=for-the-badge" alt="Agent Skill">
 </p>
 
 # 跟党学 Coding
@@ -46,6 +42,15 @@
 <p align="center">
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics 使用效果演示">
 </p>
+
+## 兼容性
+
+| 工具 | 仓库内入口 | 安装方式 | 状态 |
+|------|------------|----------|------|
+| OpenCode | `SKILL.md` | `bash scripts/install.sh opencode` | 已适配 |
+| Codex | `SKILL.md` + `AGENTS.md` + `agents/openai.yaml` | `bash scripts/install.sh codex` | 已适配 |
+| Claude Code | `CLAUDE.md` + `.claude/commands/mao-dialectics.md` | `bash scripts/install.sh claude` | 已适配 |
+| 其他 Agent | `SKILL.md` + `references/` | 手动加载为自定义指令 | 可复用 |
 
 ## 安装
 
@@ -98,6 +103,8 @@ mao-dialectics/
 ├── .claude/
 │   └── commands/
 │       └── mao-dialectics.md       # Claude Code slash command
+├── agents/
+│   └── openai.yaml                 # Codex/OpenAI skill UI metadata
 ├── assets/
 │   ├── banner.png                  # 项目横幅
 │   └── example-output.svg          # 使用效果演示图
@@ -125,6 +132,10 @@ mao-dialectics/
 | 形势判断 | 星星之火、目前形势和任务 |
 | 创意与学习 | 文艺座谈会讲话、反对党八股 |
 | 价值观与修养 | 纪念白求恩、为人民服务、愚公移山 |
+
+## 声明
+
+本项目是面向 AI Agent 的方法论工具，关注分析框架、问题拆解、战略规划和实践验证，不是政治宣传，也不用于历史人物评价。输出内容应作为辅助思考材料，涉及事实、引用、工程决策或高风险场景时，需要用户结合上下文自行核验。
 
 <p align="center">
   <strong>以历史为镜，以实践为尺，以辩证为法。</strong><br>

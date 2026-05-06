@@ -1,0 +1,9 @@
+interface:
+  display_name: "Mao Dialectics"
+  short_description: "Dialectical reasoning workflows for AI agents"
+  icon_large: "./assets/banner.png"
+  brand_color: "#8a1b16"
+  default_prompt: "Use $mao-dialectics to analyze this problem through principal contradiction, concrete conditions, and practical validation."
+
+policy:
+  allow_implicit_invocation: true
