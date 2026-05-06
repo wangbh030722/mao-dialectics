@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/mao--dialectics-唯物辩证批判思维-cc2929?style=for-the-badge&labelColor=1a1a2e">
-    <img src="https://img.shields.io/badge/mao--dialectics-唯物辩证批判思维-cc2929?style=for-the-badge&labelColor=fff">
-  </picture>
+  <img src="https://img.shields.io/badge/mao--dialectics-唯物辩证批判思维-cc2929?style=for-the-badge" alt="mao-dialectics">
 </p>
 
 <p align="center">
@@ -12,25 +9,21 @@
 </p>
 
 <p align="center">
-  <a href="#中文"><img src="https://img.shields.io/badge/中文-简体-red?style=flat-square"></a>
-  <a href="#english"><img src="https://img.shields.io/badge/English-blue?style=flat-square"></a>
+  <a href="#zh"><img src="https://img.shields.io/badge/中文-简体-red?style=flat-square"></a>
+  <a href="#en"><img src="https://img.shields.io/badge/English-blue?style=flat-square"></a>
 </p>
-
-<br>
 
 ---
 
-<a id="中文"></a>
+<a id="zh"></a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🇨🇳-中文-f5f5dc?style=flat-square">
+  <b><span style="font-size: 1.5em;">🇨🇳 中文</span></b>
 </p>
 
 # 唯物辩证批判思维
 
-<p align="center">
-  <em>以《矛盾论》《实践论》为核心的方法论体系。</br>赋予 AI 唯物辩证法的底层思维框架。</em>
-</p>
+以《矛盾论》《实践论》为核心的方法论体系，赋予 AI 唯物辩证法的底层思维框架。
 
 ---
 
@@ -48,8 +41,8 @@
 
 | 模式 | 说明 |
 |------|------|
-| **被动模式（Always-On）** | 作为底层思维框架渗透在所有输出中。不需要显式调用，七条思维原则自动内化到推理过程 |
-| **主动模式（On-Demand）** | 用户显式请求辩证分析时，执行六步结构化工作流，输出深度批判意见 |
+| **被动模式（Always-On）** | 作为底层思维框架渗透在所有输出中，七条思维原则自动内化 |
+| **主动模式（On-Demand）** | 用户显式请求辩证分析时，输出结构化深度批判意见 |
 
 ---
 
@@ -59,13 +52,13 @@
 
 | # | 原则 | 核心含义 |
 |---|------|---------|
-| 1 | **矛盾普遍性** | 任何事物内部都包含对立统一的两方面 |
-| 2 | **主要矛盾优先** | 抓主要矛盾，不要眉毛胡子一把抓 |
-| 3 | **具体问题具体分析** | 不套公式，深入具体条件做判断 |
-| 4 | **实践检验原则** | 理论最终要回到实践验证 |
-| 5 | **历史发展观点** | 事物处于永恒发展中 |
-| 6 | **两点论** | 同时看到正面与反面、主流与支流 |
-| 7 | **量变质变警觉** | 注意量变积累到质变跳跃的临界点 |
+| 1 | 矛盾普遍性 | 任何事物内部都包含对立统一的两方面 |
+| 2 | 主要矛盾优先 | 抓主要矛盾，不要眉毛胡子一把抓 |
+| 3 | 具体问题具体分析 | 不套公式，深入具体条件做判断 |
+| 4 | 实践检验原则 | 理论最终要回到实践验证 |
+| 5 | 历史发展观点 | 事物处于永恒发展中 |
+| 6 | 两点论 | 同时看到正面与反面、主流与支流 |
+| 7 | 量变质变警觉 | 注意量变积累到质变跳跃的临界点 |
 
 ### 六步分析工作流（主动模式）
 
@@ -73,29 +66,14 @@
 现象定位 → 矛盾识别 → 历史溯源 → 条件与趋势分析 → 批判性诊断 → 实践指导
 ```
 
-每步都有明确的自检问题，确保分析不流于空谈。
-
 ---
 
-## 如何使用
-
-### 安装
+## 安装
 
 ```bash
-# 克隆仓库
 git clone https://github.com/wangbh030722/mao-dialectics.git
-
-# 复制到 opencode skills 目录
 cp -r mao-dialectics ~/.config/opencode/skills/
 ```
-
-### 触发
-
-**自然激活**：当你问 AI 需要深度分析的问题时，技能自动生效。
-
-**显式调用**：使用以下关键词触发结构化分析：
-
-> 辩证分析、矛盾分析、一分为二、实事求是、实践检验、批判性地看、主要矛盾是什么
 
 ---
 
@@ -103,13 +81,13 @@ cp -r mao-dialectics ~/.config/opencode/skills/
 
 ```
 mao-dialectics/
-├── SKILL.md                          # 核心方法论 + 双模工作流
-├── LICENSE                           # MIT 开源许可证
-├── references/
-│   ├── contradiction.md              # 矛盾论体系详解
-│   ├── practice.md                   # 实践论体系详解
-│   ├── methodology.md                # 方法论工具箱
-│   └── analytical-schema.md          # 分析模板 + 经典案例拆解
+├── SKILL.md                   # 核心方法论 + 双模工作流
+├── LICENSE                    # MIT 许可证
+└── references/
+    ├── contradiction.md       # 矛盾论体系详解
+    ├── practice.md            # 实践论体系详解
+    ├── methodology.md         # 方法论工具箱
+    └── analytical-schema.md   # 分析模板 + 经典案例拆解
 ```
 
 ---
@@ -120,19 +98,15 @@ MIT &copy; 2025 wangbh030722
 
 ---
 
-<br>
-
-<a id="english"></a>
+<a id="en"></a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🇺🇸-English-1a5276?style=flat-square">
+  <b><span style="font-size: 1.5em;">🇺🇸 English</span></b>
 </p>
 
 # mao-dialectics
 
-<p align="center">
-  <em>A materialist dialectical thinking framework for AI agents,</br>grounded in Mao Zedong's "On Contradiction" and "On Practice".</em>
-</p>
+A materialist dialectical thinking framework for AI agents, grounded in Mao Zedong's "On Contradiction" and "On Practice".
 
 ---
 
@@ -149,8 +123,8 @@ Rather than a collection of abstract philosophical concepts, this skill provides
 
 | Mode | Description |
 |------|-------------|
-| **Passive (Always-On)** | Seven thinking principles automatically permeate the reasoning process — identifying contradictions, prioritizing principal issues, analyzing concretely |
-| **Active (On-Demand)** | When explicitly requested, executes a six-step structured analysis producing actionable critical insights |
+| **Passive (Always-On)** | Seven thinking principles automatically permeate the reasoning process |
+| **Active (On-Demand)** | Six-step structured analysis producing actionable critical insights |
 
 ---
 
@@ -160,18 +134,18 @@ Rather than a collection of abstract philosophical concepts, this skill provides
 
 | # | Principle | Essence |
 |---|-----------|---------|
-| 1 | **Universality of Contradiction** | Everything contains internal opposites in unity |
-| 2 | **Principal Contradiction First** | Identify what governs the overall situation |
-| 3 | **Concrete Analysis** | No universal formulas — examine specific conditions |
-| 4 | **Practice as Criterion** | Theory must be validated by practice |
-| 5 | **Historical Development** | Things are in perpetual motion and change |
-| 6 | **Two-Sided View** | See both the positive and negative aspects |
-| 7 | **Quantitative to Qualitative** | Watch for critical thresholds of change |
+| 1 | Universality of Contradiction | Everything contains internal opposites in unity |
+| 2 | Principal Contradiction First | Identify what governs the overall situation |
+| 3 | Concrete Analysis | No universal formulas — examine specific conditions |
+| 4 | Practice as Criterion | Theory must be validated by practice |
+| 5 | Historical Development | Things are in perpetual motion and change |
+| 6 | Two-Sided View | See both the positive and negative aspects |
+| 7 | Quantitative to Qualitative | Watch for critical thresholds of change |
 
 ### Six-Step Analysis Workflow (Active Mode)
 
 ```
-Locate Phenomenon → Identify Contradictions → Trace History
+Locate → Identify Contradictions → Trace History
 → Analyze Conditions → Critical Diagnosis → Practical Guidance
 ```
 
@@ -190,13 +164,13 @@ cp -r mao-dialectics ~/.config/opencode/skills/
 
 ```
 mao-dialectics/
-├── SKILL.md                          # Core methodology + dual-mode workflow
-├── LICENSE                           # MIT License
-├── references/
-│   ├── contradiction.md              # Theory of Contradiction
-│   ├── practice.md                   # Theory of Practice
-│   ├── methodology.md                # Methodological toolbox
-│   └── analytical-schema.md          # Analysis templates + case studies
+├── SKILL.md                   # Core methodology + dual-mode workflow
+├── LICENSE                    # MIT License
+└── references/
+    ├── contradiction.md       # Theory of Contradiction
+    ├── practice.md            # Theory of Practice
+    ├── methodology.md         # Methodological toolbox
+    └── analytical-schema.md   # Analysis templates + case studies
 ```
 
 ---
