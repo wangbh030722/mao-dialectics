@@ -73,11 +73,18 @@
 
 ## 安装
 
-### OpenCode
+一键安装到本机常用 Agent 入口：
 
 ```bash
 git clone https://github.com/wangbh030722/mao-dialectics.git
-cp -r mao-dialectics ~/.config/opencode/skills/
+cd mao-dialectics
+bash scripts/install.sh all
+```
+
+### OpenCode
+
+```bash
+bash scripts/install.sh opencode
 ```
 
 安装后，在新会话中可直接使用：
@@ -86,25 +93,40 @@ cp -r mao-dialectics ~/.config/opencode/skills/
 skill("mao-dialectics")
 ```
 
-### Claude Code / Codex / 其他 Agent
+### Codex
 
 ```bash
-git clone https://github.com/wangbh030722/mao-dialectics.git
+bash scripts/install.sh codex
 ```
 
-把仓库中的 `SKILL.md` 作为自定义指令或技能入口加载；需要更完整的方法论上下文时，同时让 Agent 读取 `references/` 目录中的参考文件。
+这个仓库本身包含 Codex 可读取的 `SKILL.md` 和 `AGENTS.md`。安装后可作为 Codex skill 使用；如果把 `AGENTS.md` 放到其他项目根目录，也可以作为项目级方法论指令加载。
+
+### Claude Code
+
+```bash
+bash scripts/install.sh claude
+```
+
+这个仓库包含 `CLAUDE.md` 和 `.claude/commands/mao-dialectics.md`。在仓库内打开 Claude Code 时，`CLAUDE.md` 可作为项目记忆；安装命令会把 `/mao-dialectics` slash command 放到 `~/.claude/commands/`。
 
 ## 文件结构
 
 ```text
 mao-dialectics/
+├── AGENTS.md                       # Codex 项目指令入口
+├── CLAUDE.md                       # Claude Code 项目记忆入口
 ├── SKILL.md                        # 核心方法论与双模工作流
 ├── README.md                       # 中文默认首页
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # 中文完整说明
+├── .claude/
+│   └── commands/
+│       └── mao-dialectics.md       # Claude Code slash command
 ├── assets/
 │   ├── banner.png                  # 项目横幅
 │   └── example-output.svg          # 使用效果演示图
+├── scripts/
+│   └── install.sh                  # OpenCode / Codex / Claude Code 安装脚本
 └── references/
     ├── problem-routing.md          # 问题类型到方法路由
     ├── contradiction.md            # 矛盾论体系详解

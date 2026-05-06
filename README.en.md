@@ -49,11 +49,18 @@ Here are two intended output shapes: one for product direction and one for codin
 
 ## Installation
 
-### OpenCode
+Install into common local agent entrypoints:
 
 ```bash
 git clone https://github.com/wangbh030722/mao-dialectics.git
-cp -r mao-dialectics ~/.config/opencode/skills/
+cd mao-dialectics
+bash scripts/install.sh all
+```
+
+### OpenCode
+
+```bash
+bash scripts/install.sh opencode
 ```
 
 After installation, load it in a new session:
@@ -62,25 +69,40 @@ After installation, load it in a new session:
 skill("mao-dialectics")
 ```
 
-### Claude Code / Codex / Other Agents
+### Codex
 
 ```bash
-git clone https://github.com/wangbh030722/mao-dialectics.git
+bash scripts/install.sh codex
 ```
 
-Use `SKILL.md` as the custom instruction or skill entrypoint. For the full methodology context, also point the agent at the files in `references/`.
+This repository includes Codex-readable `SKILL.md` and `AGENTS.md` entrypoints. After installation, it can be used as a Codex skill. You can also copy `AGENTS.md` into another project root as project-level methodology guidance.
+
+### Claude Code
+
+```bash
+bash scripts/install.sh claude
+```
+
+This repository includes `CLAUDE.md` and `.claude/commands/mao-dialectics.md`. When Claude Code is opened from this repository, `CLAUDE.md` acts as project memory. The install command also places a `/mao-dialectics` slash command in `~/.claude/commands/`.
 
 ## File Structure
 
 ```text
 mao-dialectics/
+├── AGENTS.md                       # Codex project instruction entrypoint
+├── CLAUDE.md                       # Claude Code project memory entrypoint
 ├── SKILL.md                        # Core methodology and dual-mode workflows
 ├── README.md                       # Default Chinese homepage
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # Chinese documentation
+├── .claude/
+│   └── commands/
+│       └── mao-dialectics.md       # Claude Code slash command
 ├── assets/
 │   ├── banner.png                  # Project banner
 │   └── example-output.svg          # Usage example preview
+├── scripts/
+│   └── install.sh                  # OpenCode / Codex / Claude Code installer
 └── references/
     ├── problem-routing.md          # Problem type to method routing
     ├── contradiction.md            # Theory of contradiction
