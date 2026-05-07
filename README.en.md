@@ -3,9 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/中文-简体-8a1b16?style=for-the-badge&logo=readme" alt="中文"></a>
-  <img src="https://img.shields.io/badge/license-MIT-8a1b16?style=for-the-badge" alt="MIT License">
-  <img src="https://img.shields.io/badge/agent-skill-c52424?style=for-the-badge" alt="Agent Skill">
+  <a href="README.md">中文</a> | <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/wangbh030722/mao-dialectics/releases"><img src="https://img.shields.io/github/v/release/wangbh030722/mao-dialectics?style=flat-square&label=release&color=0b84d8" alt="Release"></a>
+  <a href="https://github.com/wangbh030722/mao-dialectics/stargazers"><img src="https://img.shields.io/github/stars/wangbh030722/mao-dialectics?style=flat-square&label=stars&color=d9a300" alt="GitHub stars"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/wangbh030722/mao-dialectics?style=flat-square&label=license&color=8a1b16" alt="License"></a>
+  <img src="https://img.shields.io/badge/agent-skill-c52424?style=flat-square" alt="Agent Skill">
 </p>
 
 # Mao Dialectics for Coding
