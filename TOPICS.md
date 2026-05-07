@@ -26,6 +26,7 @@ methodology
 knowledge-work
 chinese-methodology
 mao-dialectics
+mao-dialectics-for-coding
 mao-zedong
 selected-works
 ```

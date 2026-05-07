@@ -3,13 +3,13 @@
 Title:
 
 ```text
-mao-dialectics v0.1.0: Methodology skill for Codex, Claude Code, and OpenCode
+跟党学 Coding v0.1.0: mao-dialectics methodology skill for Codex, Claude Code, and OpenCode
 ```
 
 Description:
 
 ````markdown
-Initial public release of mao-dialectics, an AI agent methodology skill inspired by dialectical analysis, contradiction analysis, practice theory, investigation, strategic planning, software architecture reasoning, brainstorming, project execution, and retrospection.
+Initial public release of 跟党学 Coding (`mao-dialectics`), an AI agent methodology skill inspired by dialectical analysis, contradiction analysis, practice theory, investigation, strategic planning, software architecture reasoning, brainstorming, project execution, and retrospection.
 
 ## Highlights
 

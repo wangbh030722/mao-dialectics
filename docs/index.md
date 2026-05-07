@@ -1,8 +1,10 @@
-# Mao Dialectics for AI Agents
+# 跟党学 Coding
 
-`mao-dialectics` is an AI agent methodology skill for Codex, Claude Code, OpenCode, and other coding agents. It turns dialectical analysis, contradiction analysis, practice theory, investigation, strategic planning, brainstorming, software architecture reasoning, project execution, and retrospection into practical workflows.
+**跟党学 Coding** (`mao-dialectics`) is an AI agent methodology skill for Codex, Claude Code, OpenCode, and other coding agents. It turns dialectical analysis, contradiction analysis, practice theory, investigation, strategic planning, brainstorming, software architecture reasoning, project execution, and retrospection into practical workflows.
 
-中文名：跟党学 Coding。它不是政治宣传，而是一个面向 AI Agent 的方法论工具箱：用主要矛盾、具体问题具体分析、调查研究、实践检验、阶段判断和复盘总结来辅助产品判断、代码架构、项目规划和知识工作。
+搜索别名：跟党学 Coding、跟党学Coding、mao-dialectics、Mao Dialectics for Coding、Mao Dialectics for AI Agents。
+
+它不是政治宣传，而是一个面向 AI Agent 的方法论工具箱：用主要矛盾、具体问题具体分析、调查研究、实践检验、阶段判断和复盘总结来辅助产品判断、代码架构、项目规划和知识工作。
 
 ## Searchable Themes
 
@@ -25,6 +27,9 @@
 - Chinese methodology for AI agents
 - Mao dialectics
 - Mao Zedong Selected Works methodology
+- 跟党学 Coding
+- 跟党学Coding
+- 毛选方法论
 
 ## Entry Points
 

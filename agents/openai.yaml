@@ -1,6 +1,6 @@
 interface:
-  display_name: "Mao Dialectics"
-  short_description: "Dialectical reasoning workflows for AI agents"
+  display_name: "跟党学 Coding"
+  short_description: "Mao dialectics workflows for AI agents"
   icon_large: "./assets/banner.png"
   brand_color: "#8a1b16"
   default_prompt: "Use $mao-dialectics to analyze this problem through principal contradiction, concrete conditions, and practical validation."

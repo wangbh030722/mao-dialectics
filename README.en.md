@@ -10,9 +10,11 @@
 
 # Mao Dialectics for Coding
 
-**mao-dialectics** is a methodology skill for AI agents. It distills dialectical analysis, practice-based reasoning, investigation, strategic judgment, execution planning, and retrospection from the *Selected Works of Mao Zedong* into practical workflows for software work.
+**跟党学 Coding** (`mao-dialectics`, Mao Dialectics for Coding) is a methodology skill for AI agents. It distills dialectical analysis, practice-based reasoning, investigation, strategic judgment, execution planning, and retrospection from the *Selected Works of Mao Zedong* into practical workflows for software work.
 
 It is not political propaganda or a pile of philosophical labels. The focus is operational thinking: identify the principal contradiction, analyze concrete conditions, investigate before judging, and revise knowledge through practice.
+
+Search aliases: `跟党学 Coding`, `跟党学Coding`, `mao-dialectics`, `Mao Dialectics for Coding`, `Mao Dialectics for AI Agents`.
 
 Related themes include AI agent methodology, Codex skill, Claude Code command, OpenCode skill, prompt engineering, software engineering methodology, software architecture decisions, product strategy, project retrospectives, systems thinking, critical thinking, dialectical analysis, contradiction analysis, dialectical materialism, practice theory, Mao Selected Works methodology, investigation, and knowledge work.
 

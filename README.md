@@ -10,9 +10,11 @@
 
 # 跟党学 Coding
 
-**mao-dialectics** 是一个面向 AI Agent 的方法论技能包。它从《毛泽东选集》的辩证法、实践论、调查研究、战略判断与组织方法中提炼可操作的分析框架，用来帮助 Agent 把问题想清楚、把方案排出来、把执行落下去、把经验复盘出来。
+**跟党学 Coding**（`mao-dialectics`）是一个面向 AI Agent 的方法论技能包。它从《毛泽东选集》的辩证法、实践论、调查研究、战略判断与组织方法中提炼可操作的分析框架，用来帮助 Agent 把问题想清楚、把方案排出来、把执行落下去、把经验复盘出来。
 
 它不是政治宣传，也不是哲学概念堆砌。这个仓库关注的是一套能进入实际工作的思维工具：抓主要矛盾、坚持具体问题具体分析、先调查再判断、从实践中修正认识。
+
+搜索别名：`跟党学 Coding`、`跟党学Coding`、`mao-dialectics`、`Mao Dialectics for Coding`、`Mao Dialectics for AI Agents`。
 
 适用主题包括：AI Agent 方法论、Codex skill、Claude Code command、OpenCode skill、prompt engineering、软件工程方法论、架构决策、产品战略、项目复盘、系统思维、批判性思维、辩证分析、矛盾分析、辩证唯物主义、实践论、毛选方法论、调查研究和知识工作。
 
