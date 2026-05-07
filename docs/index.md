@@ -35,16 +35,13 @@
 
 | Tool | Entrypoint | Guide |
 |------|------------|-------|
-| Codex | `SKILL.md`, `AGENTS.md`, `agents/openai.yaml` | [Codex guide](codex.md) |
-| Claude Code | `CLAUDE.md`, `.claude/commands/mao-dialectics.md` | [Claude Code guide](claude-code.md) |
-| OpenCode | `SKILL.md` | [OpenCode guide](opencode.md) |
+| Codex | `SKILL.md`, `AGENTS.md`, `agents/openai.yaml` | [Adapter guide](adapters.md) |
+| Claude Code | `CLAUDE.md`, `.claude/commands/mao-dialectics.md` | [Adapter guide](adapters.md) |
+| OpenCode | `SKILL.md` | [Adapter guide](adapters.md) |
 
 ## Example Use Cases
 
-- [Product strategy analysis](../examples/product-strategy.md)
-- [Coding architecture decision](../examples/coding-architecture.md)
-- [Project retrospective](../examples/project-retrospective.md)
-- [Brainstorming workflow](../examples/brainstorming.md)
+The README includes a visual example for product strategy and coding architecture decisions. Deeper workflow references live in `references/`.
 
 ## Disclaimer
 

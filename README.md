@@ -52,15 +52,6 @@
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics 使用效果演示">
 </p>
 
-更多可搜索示例：
-
-| 示例 | 覆盖主题 |
-|------|----------|
-| [产品战略分析](examples/product-strategy.md) | product strategy, AI agent memory, 主要矛盾 |
-| [Coding 架构决策](examples/coding-architecture.md) | software architecture, service boundary, 架构矛盾 |
-| [项目复盘](examples/project-retrospective.md) | retrospective, project management, 实践检验 |
-| [头脑风暴](examples/brainstorming.md) | brainstorming, prompt engineering, 搜索优化 |
-
 ## 兼容性
 
 | 工具 | 仓库内入口 | 安装方式 | 状态 |
@@ -72,9 +63,7 @@
 
 更多安装与使用文档：
 
-- [Codex 使用指南](docs/codex.md)
-- [Claude Code 使用指南](docs/claude-code.md)
-- [OpenCode 使用指南](docs/opencode.md)
+- [Agent 适配指南](docs/adapters.md)
 - [搜索落地页](docs/index.md)
 
 ## 安装
@@ -124,9 +113,6 @@ mao-dialectics/
 ├── SKILL.md                        # 核心方法论与双模工作流
 ├── README.md                       # 中文默认首页
 ├── README.en.md                    # English documentation
-├── README.zh.md                    # 中文完整说明
-├── RELEASE_DRAFT.md                # GitHub Release 文案草稿
-├── TOPICS.md                       # GitHub Topics 建议
 ├── .claude/
 │   └── commands/
 │       └── mao-dialectics.md       # Claude Code slash command
@@ -142,14 +128,8 @@ mao-dialectics/
 │   └── install.sh                  # OpenCode / Codex / Claude Code 安装脚本
 ├── docs/
 │   ├── index.md                    # 搜索落地页
-│   ├── codex.md                    # Codex 使用指南
-│   ├── claude-code.md              # Claude Code 使用指南
-│   └── opencode.md                 # OpenCode 使用指南
-├── examples/
-│   ├── product-strategy.md         # 产品战略分析示例
-│   ├── coding-architecture.md      # Coding 架构决策示例
-│   ├── project-retrospective.md    # 项目复盘示例
-│   └── brainstorming.md            # 头脑风暴示例
+│   ├── adapters.md                 # Agent 适配指南
+│   └── _config.yml                 # GitHub Pages 配置
 └── references/
     ├── problem-routing.md          # 问题类型到方法路由
     ├── contradiction.md            # 矛盾论体系详解

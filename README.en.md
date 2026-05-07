@@ -52,15 +52,6 @@ Here are two intended output shapes: one for product direction and one for codin
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics usage example">
 </p>
 
-More searchable examples:
-
-| Example | Themes |
-|---------|--------|
-| [Product strategy analysis](examples/product-strategy.md) | product strategy, AI agent memory, principal contradiction |
-| [Coding architecture decision](examples/coding-architecture.md) | software architecture, service boundary, architecture tradeoff |
-| [Project retrospective](examples/project-retrospective.md) | retrospective, project management, practice validation |
-| [Brainstorming workflow](examples/brainstorming.md) | brainstorming, prompt engineering, search optimization |
-
 ## Compatibility
 
 | Tool | Repository entrypoint | Installation | Status |
@@ -72,9 +63,7 @@ More searchable examples:
 
 More docs:
 
-- [Codex guide](docs/codex.md)
-- [Claude Code guide](docs/claude-code.md)
-- [OpenCode guide](docs/opencode.md)
+- [Agent adapter guide](docs/adapters.md)
 - [Search landing page](docs/index.md)
 
 ## Installation
@@ -124,9 +113,6 @@ mao-dialectics/
 ├── SKILL.md                        # Core methodology and dual-mode workflows
 ├── README.md                       # Default Chinese homepage
 ├── README.en.md                    # English documentation
-├── README.zh.md                    # Chinese documentation
-├── RELEASE_DRAFT.md                # GitHub Release draft
-├── TOPICS.md                       # Suggested GitHub Topics
 ├── .claude/
 │   └── commands/
 │       └── mao-dialectics.md       # Claude Code slash command
@@ -142,14 +128,8 @@ mao-dialectics/
 │   └── install.sh                  # OpenCode / Codex / Claude Code installer
 ├── docs/
 │   ├── index.md                    # Search landing page
-│   ├── codex.md                    # Codex guide
-│   ├── claude-code.md              # Claude Code guide
-│   └── opencode.md                 # OpenCode guide
-├── examples/
-│   ├── product-strategy.md         # Product strategy example
-│   ├── coding-architecture.md      # Coding architecture example
-│   ├── project-retrospective.md    # Project retrospective example
-│   └── brainstorming.md            # Brainstorming example
+│   ├── adapters.md                 # Agent adapter guide
+│   └── _config.yml                 # GitHub Pages config
 └── references/
     ├── problem-routing.md          # Problem type to method routing
     ├── contradiction.md            # Theory of contradiction
