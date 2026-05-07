@@ -14,6 +14,8 @@
 
 It is not political propaganda or a pile of philosophical labels. The focus is operational thinking: identify the principal contradiction, analyze concrete conditions, investigate before judging, and revise knowledge through practice.
 
+Related themes include AI agent methodology, Codex skill, Claude Code command, OpenCode skill, prompt engineering, software engineering methodology, software architecture decisions, product strategy, project retrospectives, systems thinking, critical thinking, dialectical analysis, contradiction analysis, dialectical materialism, practice theory, Mao Selected Works methodology, investigation, and knowledge work.
+
 ## Why Use It
 
 | Scenario | What the agent learns to do |
@@ -43,6 +45,15 @@ Here are two intended output shapes: one for product direction and one for codin
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics usage example">
 </p>
 
+More searchable examples:
+
+| Example | Themes |
+|---------|--------|
+| [Product strategy analysis](examples/product-strategy.md) | product strategy, AI agent memory, principal contradiction |
+| [Coding architecture decision](examples/coding-architecture.md) | software architecture, service boundary, architecture tradeoff |
+| [Project retrospective](examples/project-retrospective.md) | retrospective, project management, practice validation |
+| [Brainstorming workflow](examples/brainstorming.md) | brainstorming, prompt engineering, search optimization |
+
 ## Compatibility
 
 | Tool | Repository entrypoint | Installation | Status |
@@ -51,6 +62,13 @@ Here are two intended output shapes: one for product direction and one for codin
 | Codex | `SKILL.md` + `AGENTS.md` + `agents/openai.yaml` | `bash scripts/install.sh codex` | Supported |
 | Claude Code | `CLAUDE.md` + `.claude/commands/mao-dialectics.md` | `bash scripts/install.sh claude` | Supported |
 | Other agents | `SKILL.md` + `references/` | Load manually as custom instructions | Reusable |
+
+More docs:
+
+- [Codex guide](docs/codex.md)
+- [Claude Code guide](docs/claude-code.md)
+- [OpenCode guide](docs/opencode.md)
+- [Search landing page](docs/index.md)
 
 ## Installation
 
@@ -100,9 +118,14 @@ mao-dialectics/
 ├── README.md                       # Default Chinese homepage
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # Chinese documentation
+├── RELEASE_DRAFT.md                # GitHub Release draft
+├── TOPICS.md                       # Suggested GitHub Topics
 ├── .claude/
 │   └── commands/
 │       └── mao-dialectics.md       # Claude Code slash command
+├── .github/
+│   ├── ISSUE_TEMPLATE/             # Issue templates
+│   └── PULL_REQUEST_TEMPLATE.md    # PR template
 ├── agents/
 │   └── openai.yaml                 # Codex/OpenAI skill UI metadata
 ├── assets/
@@ -110,6 +133,16 @@ mao-dialectics/
 │   └── example-output.svg          # Usage example preview
 ├── scripts/
 │   └── install.sh                  # OpenCode / Codex / Claude Code installer
+├── docs/
+│   ├── index.md                    # Search landing page
+│   ├── codex.md                    # Codex guide
+│   ├── claude-code.md              # Claude Code guide
+│   └── opencode.md                 # OpenCode guide
+├── examples/
+│   ├── product-strategy.md         # Product strategy example
+│   ├── coding-architecture.md      # Coding architecture example
+│   ├── project-retrospective.md    # Project retrospective example
+│   └── brainstorming.md            # Brainstorming example
 └── references/
     ├── problem-routing.md          # Problem type to method routing
     ├── contradiction.md            # Theory of contradiction

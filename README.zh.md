@@ -13,6 +13,8 @@
 
 **mao-dialectics** 是一个面向 AI Agent 的方法论技能包。它从《毛泽东选集》的辩证法、实践论、调查研究、战略判断与组织方法中提炼可操作的分析框架，用来帮助 Agent 把问题想清楚、把方案排出来、把执行落下去、把经验复盘出来。
 
+适用主题包括：AI Agent 方法论、Codex skill、Claude Code command、OpenCode skill、prompt engineering、软件工程方法论、架构决策、产品战略、项目复盘、系统思维、批判性思维、辩证分析、矛盾分析、辩证唯物主义、实践论、毛选方法论、调查研究和知识工作。
+
 ## 总览
 
 这个 skill 有两种运行方式：
@@ -69,6 +71,15 @@
   <img src="assets/example-output.svg" width="920" alt="mao-dialectics 使用效果演示">
 </p>
 
+更多可搜索示例：
+
+| 示例 | 覆盖主题 |
+|------|----------|
+| [产品战略分析](examples/product-strategy.md) | product strategy, AI agent memory, 主要矛盾 |
+| [Coding 架构决策](examples/coding-architecture.md) | software architecture, service boundary, 架构矛盾 |
+| [项目复盘](examples/project-retrospective.md) | retrospective, project management, 实践检验 |
+| [头脑风暴](examples/brainstorming.md) | brainstorming, prompt engineering, 搜索优化 |
+
 ## 兼容性
 
 | 工具 | 仓库内入口 | 安装方式 | 状态 |
@@ -77,6 +88,13 @@
 | Codex | `SKILL.md` + `AGENTS.md` + `agents/openai.yaml` | `bash scripts/install.sh codex` | 已适配 |
 | Claude Code | `CLAUDE.md` + `.claude/commands/mao-dialectics.md` | `bash scripts/install.sh claude` | 已适配 |
 | 其他 Agent | `SKILL.md` + `references/` | 手动加载为自定义指令 | 可复用 |
+
+更多安装与使用文档：
+
+- [Codex 使用指南](docs/codex.md)
+- [Claude Code 使用指南](docs/claude-code.md)
+- [OpenCode 使用指南](docs/opencode.md)
+- [搜索落地页](docs/index.md)
 
 ## 安装
 
@@ -126,9 +144,14 @@ mao-dialectics/
 ├── README.md                       # 中文默认首页
 ├── README.en.md                    # English documentation
 ├── README.zh.md                    # 中文完整说明
+├── RELEASE_DRAFT.md                # GitHub Release 文案草稿
+├── TOPICS.md                       # GitHub Topics 建议
 ├── .claude/
 │   └── commands/
 │       └── mao-dialectics.md       # Claude Code slash command
+├── .github/
+│   ├── ISSUE_TEMPLATE/             # Issue 模板
+│   └── PULL_REQUEST_TEMPLATE.md    # PR 模板
 ├── agents/
 │   └── openai.yaml                 # Codex/OpenAI skill UI metadata
 ├── assets/
@@ -136,6 +159,16 @@ mao-dialectics/
 │   └── example-output.svg          # 使用效果演示图
 ├── scripts/
 │   └── install.sh                  # OpenCode / Codex / Claude Code 安装脚本
+├── docs/
+│   ├── index.md                    # 搜索落地页
+│   ├── codex.md                    # Codex 使用指南
+│   ├── claude-code.md              # Claude Code 使用指南
+│   └── opencode.md                 # OpenCode 使用指南
+├── examples/
+│   ├── product-strategy.md         # 产品战略分析示例
+│   ├── coding-architecture.md      # Coding 架构决策示例
+│   ├── project-retrospective.md    # 项目复盘示例
+│   └── brainstorming.md            # 头脑风暴示例
 └── references/
     ├── problem-routing.md          # 问题类型到方法路由
     ├── contradiction.md            # 矛盾论体系详解
